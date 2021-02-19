@@ -1,0 +1,12 @@
+name: shiny_app
+title:
+username:
+account: petez
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3656081
+bundleId: 4238547
+url: https://petez.shinyapps.io/shiny_app/
+when: 1613618000.8263
+asMultiple: FALSE
+asStatic: FALSE
