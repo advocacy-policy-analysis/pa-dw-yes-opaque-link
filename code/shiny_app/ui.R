@@ -87,69 +87,42 @@ shinyUI(
                   fluidRow(column(
                     12,
                     align = "center",
-                    tags$a(
-                      img(
-                        src = "bitss_just_logo_transparent.png",
-                        width = "20%",
-                        height = "auto"
-                      ),
-                      href = "https://bitss.org"
+                    img(
+                      src = "institute-for-deworming.png",
+                      width = "50%",
+                      height = "50%"
                     ),
-                    tags$a(
-                      img(
-                        src = "cega_transparent.png",
-                        width = "70%",
-                        height = "auto"
-                      ),
-                      href = "https://cega.berkeley.edu"
-                    )
                   )),
                   fluidRow(
                     style = "width: 100%; height: 100%; max-width: 400px;",
-                    p("Note: this policy analysis have been modified to illustrate the role of opaqueness in policy analysis, and they do not represent accurate estimates of the effect of deworming. For an open policy analysis that does represent the best available policy estimates on the effects of deworming see", 
+                    p(strong("Note: This policy analysis has been modified to illustrate the issues with opaqueness in policy analysis and it does not represent an accurate estimate of the effects of mass deworming. For an open policy analysis that does represent the best available policy estimates on the effects of deworming click"), 
                       tags$a(href = "http://www.bitss.org/opa/projects/deworming/", "here")),   
                     p(
-                      "This visualization is one of three key components of an",
-                      tags$a(href = "http://www.bitss.org/opa/projects/deworming/", "Open Policy Analysis (OPA)"),
-                      "on the costs and benefits of
-                       mass deworming interventions in various settings. This components are:",
+                      "This visualization is one of three key components of an analysis on the cost effectiveness of mass deworming interventions. These components are:",
                       tags$li(
                         tags$span(
-                          "This app, which presents a single output that best represents the factual information required by policy makers to inform their position regarding a policy of mass deworming. Additional two other tabs allow reader to modify key assumptions and components and see how this output changes"
+                          "This app, which presents a single output that best represents the factual information required by policy makers to inform their position regarding a policy of mass deworming. The additional tab allows readers to modify key assumptions to see how this output changes"
                         )
                       ),
                       tags$li(
-                        tags$a(href = "https://bitss-opa.github.io/opa-deworming/", "A detailed report"),
+                        tags$a(href = "https://advocacy-policy-analysis.github.io/pa-dw-yes-opaque-link/", "A detailed report"),
                         "that describes how to obtain the policy estimate and describes each component of the analysis"
                       ),
                       tags$li(
-                        tags$a(href = "https://github.com/BITSS-OPA/opa-deworming", "A repository"),
+                        tags$a(href = "https://github.com/advocacy-policy-analysis/pa-dw-yes-opaque-link", "A repository"),
                         "that contains all the materials needed to reproduce the analysis with minimal effort (report and interactive app)."
                       ),
-                    ),
-                    p(
-                      "The app is the result of a collaboration between the",
-                      tags$a(
-                        href = "https://www.bitss.org/",
-                        "Berkeley Initiative
-                                     for Transparency in the Social Sciences"
-                      ),
-                      "and",
-                      tags$a(href = "https://www.evidenceaction.org/dewormtheworld-2/",
-                             "Evidence Action.")
-                     
-                      
-                    ),
-                    p(
-                      "See a full contributors list",
-                      tags$a(href = "https://github.com/BITSS-OPA/opa-deworming/blob/master/readme.md", "here."), 
-                      br(),
-                      "See the dynamic document of this shiny app",
-                      tags$a(href = "https://bitss-opa.github.io/opa-deworming/", "here."),
-                      br(),
-                      "See more OPA projects done by BITSS",
-                      tags$a(href = "https://www.bitss.org/opa/projects/", "here.")
                     )
+                    # p(
+                    #   "See a full contributors list",
+                    #   tags$a(href = "https://github.com/BITSS-OPA/opa-deworming/blob/master/readme.md", "here."), 
+                    #   br(),
+                    #   "See the dynamic document of this shiny app",
+                    #   tags$a(href = "https://bitss-opa.github.io/opa-deworming/", "here."),
+                    #   br(),
+                    #   "See more OPA projects done by BITSS",
+                    #   tags$a(href = "https://www.bitss.org/opa/projects/", "here.")
+                    # )
                   ),
                   fluidRow(
                     id = "tPanel_main",
