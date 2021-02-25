@@ -21,9 +21,9 @@ of assumptions. Materials can be found in:
 [`code/shiny_app`](https://github.com/advocacy-policy-analysis/pa-dw-yes-opaque-link/tree/master/code/shiny_app).
 
 2 - Open policy report in the form of a [dynamic
-document](https://bitss-opa.github.io/opa-deworming/), which details all
-data, code, and assumptions included in the analysis. Materials can be
-found in:
+document](https://advocacy-policy-analysis.github.io/pa-dw-yes-opaque-link/),
+which details all data, code, and assumptions included in the analysis.
+Materials can be found in:
 [`code/dynamic_doc`](https://github.com/advocacy-policy-analysis/pa-dw-yes-opaque-link/blob/master/code/01_final_opa.Rmd).
 
 3 - This Github repository, which stores all data, code, and materials
