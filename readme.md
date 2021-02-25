@@ -1,5 +1,5 @@
 
-# Case Study on Open Policy Analysis For Cost Effectiveness Analysis of Deworming Interventions
+# Policy Analysis on the Cost Effectiveness of Mass Deworming Interventions
 
 <img width="200" src="./code/images/institute-for-deworming.png"> <br>
 
