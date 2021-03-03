@@ -1,0 +1,13 @@
+name: pa-dw-yes-opaque
+title: pa-dw-yes-opaque
+username:
+account: petez
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3716689
+bundleId: 4296526
+url: https://petez.shinyapps.io/pa-dw-yes-opaque/
+when: 1614796908.69485
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: readme.html|readme.md
