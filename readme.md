@@ -7,7 +7,7 @@ Open in RStudio:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/advocacy-policy-analysis/pa-dw-yes-opaque-link/master?urlpath=rstudio)
 
 Go straight to the Shiny app:
-[![Binder](http://mybinder.org/badge_logo.svg)](https://petez.shinyapps.io/shiny_app/)
+[![Binder](http://mybinder.org/badge_logo.svg)](https://petez.shinyapps.io/pa-dw-yes-opaque/)
 
 This repository and its accompanying dynamic document and Shiny app are
 three key components of the Institute for Deworming’s study on the costs
@@ -17,9 +17,9 @@ to facilitate collaboration and discussion about deworming policy.
 
 <img align="right" width="50%" src="./code/images/OPA_opaque_layers.svg">
 
-1 - [An interactive plot](https://petez.shinyapps.io/shiny_app/), which
-summarizes the interactions between all key parameters for a given set
-of assumptions. Materials can be found in:
+1 - [An interactive plot](https://petez.shinyapps.io/pa-dw-yes-opaque/),
+which summarizes the interactions between all key parameters for a given
+set of assumptions. Materials can be found in:
 [`code/shiny_app`](https://github.com/advocacy-policy-analysis/pa-dw-yes-opaque-link/tree/master/code/shiny_app).
 
 2 - Open policy report in the form of a [dynamic
