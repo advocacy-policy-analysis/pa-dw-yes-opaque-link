@@ -4,7 +4,7 @@ html_format <- TRUE
 # before deploying in shinyapps.io, need to remove the following packages:
 # "plotly", "bookdown", "rootSolve"
 if (TRUE) {
-  list.of.packages <- c("tidyverse", "here", "kableExtra", "readxl","shinyBS", "shinythemes",
+  list.of.packages <- c("tidyverse", "here", "kableExtra", "readxl", "shinyBS", "shinythemes",
                         "ggplot2")
 
   # sapply(list.of.packages, function(x) pacman::p_load(get(x)))

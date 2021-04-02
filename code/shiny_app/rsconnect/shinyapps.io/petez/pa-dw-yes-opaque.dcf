@@ -5,9 +5,9 @@ account: petez
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3716689
-bundleId: 4296526
+bundleId: 4425579
 url: https://petez.shinyapps.io/pa-dw-yes-opaque/
-when: 1614796908.69485
+when: 1617400914.59538
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: readme.html|readme.md
+ignoredFiles: readme.html|readme.md|data/readme.md

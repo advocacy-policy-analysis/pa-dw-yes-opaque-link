@@ -1,6 +1,6 @@
 ---
 title: "<center><div class= 'mytitle'>Case Study on the Cost Effectiveness of Mass Deworming Interventions</div></center>"
-date: "<center><div class='mysubtitle'>25 February, 2021<br><img height = '200px' src = './shiny_app/www/institute-for-deworming.png'></div></center>"
+date: "<center><div class='mysubtitle'>02 April, 2021<br><img height = '200px' src = './shiny_app/www/institute-for-deworming.png'><a href = 'http://www.bitss.org/opa/projects/deworming/'><img height = '60px' src = './shiny_app/www/OPA_layers.png'></a></div></center>"
 author: "<center><div class = 'contributors'>Institute for Deworming</div></center>"
 editor_options:
   chunk_output_type: console
@@ -274,11 +274,11 @@ invisible( list2env(chunk_sources(),.GlobalEnv) )
 Executive Summary
 </span><span></span></div>
 
-This report is part of an Open Policy Analysis (OPA) on deworming interventions. An OPA is a policy analysis that emphasizes high levels of transparency and reproducibility. It contains one [open output](https://petez.shinyapps.io/shiny_app) that best represents the facts to inform policy makers, one report (this document) that clearly explains all the analysis, and [one repository](https://github.com/advocacy-policy-analysis/pa-dw-yes-opaque-link) that contains all the materials to reproduce the report and final output.
+This report is part of an Open Policy Analysis (OPA) on deworming interventions. An OPA is a policy analysis that emphasizes high levels of transparency and reproducibility. It contains one [open output](https://petez.shinyapps.io/pa-dw-yes-opaque/) that best represents the facts to inform policy makers, one report (this document) that clearly explains all the analysis, and [one repository](https://github.com/advocacy-policy-analysis/pa-dw-yes-opaque-link) that contains all the materials to reproduce the report and final output.
 
 This report describes three approaches to compute the net present value of mass deworming interventions. The first two approaches are exact reproductions from previous research [@baird2016worms; @klps4], and the third approach is a combination of the previous two with some modification suggested by Evidence Action, a key policy partner in this area. This third approach uses the same benefits as the previous approaches and adjusts for different costs, prevalence rates and length of treatment across settings. The report suggests that this final approach should be used as the best available policy estimate to compare costs and benefits of deworming in different settings.
 
-The  main policy estimate predicts that a mass deworming intervention will have a net present value (comparison of stream of benefits and costs from today's perspective) of 289.8 for a setting with average prevalence and average unit costs (among the countries where Evidence Action has data for). Readers interested in learning about the predicted value for a specific setting are encourage to use the [interactive app](https://petez.shinyapps.io/shiny_app) components of this OPA.
+The  main policy estimate predicts that a mass deworming intervention will have a net present value (comparison of stream of benefits and costs from today's perspective) of 289.8 for a setting with average prevalence and average unit costs (among the countries where Evidence Action has data for). Readers interested in learning about the predicted value for a specific setting are encourage to use the [interactive app](https://petez.shinyapps.io/pa-dw-yes-opaque/) components of this OPA.
 
 <div class = "divider"><span></span><span>
 *
@@ -291,7 +291,7 @@ This report is part of an Open Policy Analysis (OPA) project on deworming interv
 
  This OPA project contains three components, following the OPA principles laid out in the aforementioned paper:
 
-  1. One single output that best represents the factual information required by policy makers to inform their position regarding a policy of mass deworming. This output is presented in Figure 1, and described in the [results section](#policy-estimate) of this report. The connection between each component of the analysis and the final output can be explored interactively in [this web app](https://petez.shinyapps.io/shiny_app).
+  1. One single output that best represents the factual information required by policy makers to inform their position regarding a policy of mass deworming. This output is presented in Figure 1, and described in the [results section](#policy-estimate) of this report. The connection between each component of the analysis and the final output can be explored interactively in [this web app](https://petez.shinyapps.io/pa-dw-yes-opaque/).
 
   2. This detailed report that describes how to obtain the policy estimate and describes each component of the analysis.
 
@@ -1446,7 +1446,7 @@ app3_pv_benef_all_new_in <- pv_benef_f(earnings_var = earnings_no_ext_new_in,
 Now the benefits are flexible to worm prevalence and lenght of treatment. To facilitate comparison with the other two approaches, the report presents here the results using the same prevalence and length of treatment assumptions parameters as in approach 1 and 2. Both approaches implicitly assume prevalence rates of 100% and do not distinguish between original population and target populuation. Both approaches also set the length of treatment at 2.41 years.
 -->
 
-To compute the benefits for this approach, this paper uses data on prevalence and length of treatment for the four countries that Evidence Action has records for. Readers interested in assessing the effects of deworming for a specific value of prevalence and length of treatment are referred to the [interactive app](https://fhoces.shinyapps.io/shiny_app_test/) (tab on key assumptions) where they can input the values that best reflect their setting. To facilitate comparison with the other two approaches, this paper presents here the results using the same length of treatment assumptions parameters as in approach 1 and 2.  
+To compute the benefits for this approach, this paper uses data on prevalence and length of treatment for the four countries that Evidence Action has records for. Readers interested in assessing the effects of deworming for a specific value of prevalence and length of treatment are referred to the [interactive app](https://petez.shinyapps.io/pa-dw-yes-opaque/) (tab on key assumptions) where they can input the values that best reflect their setting. To facilitate comparison with the other two approaches, this paper presents here the results using the same length of treatment assumptions parameters as in approach 1 and 2.  
 
 Under approach 3, and using the same assumptions as above, the benefits will be: 81.51 and 580.5 when using benefits of approach 1 without and with externalities, and 521.02 when using the benefit structure of approach 2.  
 
